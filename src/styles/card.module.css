@@ -1,0 +1,25 @@
+.card {
+    width: 20vw;
+    height: 30vw;
+
+    border: #9696964d 1px solid;
+
+    padding: 40px 20px;
+
+    text-align: center;
+}
+
+#cardLogo {
+    width: 40%;
+    text-align: center;
+}
+
+#cardText {
+    margin-top: 50px;
+
+}
+
+#smallCard {
+    width: 15vw;
+    height: 25vw;
+}
