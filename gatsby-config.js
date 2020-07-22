@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Joe's Custom Drywall",
+    title: "JOE'S<br>CUSTOM<br>DRYWALL",
     description: 'A quick header blurb',
     author: 'Grant Ralls',
     about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien tellus, pulvinar ut interdum non, iaculis non erat. Curabitur ac auctor ipsum, eleifend semper eros. Vestibulum id mauris enim. Donec non dui vestibulum, tempor ante vitae, ultricies augue. Praesent commodo fringilla pellentesque. Sed consequat augue a magna accumsan gravida. Donec leo sem, fermentum quis nibh in, vestibulum iaculis dui. Quisque ipsum lacus, sodales id suscipit et, luctus eget nisi. Pellentesque non sodales sapien. In ut justo ac sapien tincidunt porta ac nec ligula. Phasellus non leo tellus. Cras congue euismod elit, dapibus finibus eros varius in. Donec non consequat orci.',
