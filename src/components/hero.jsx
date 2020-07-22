@@ -6,7 +6,7 @@ function Hero({ title, description }) {
   return (
     <section className={styles.hero}>
       <section id={styles.reposition}>
-        <h1 id={styles.title}>{title}</h1>
+        <h1 id={styles.title}>JOE'S CUSTOM DRYWALL</h1>
         <h3>{description}</h3>
       </section>
     </section>
