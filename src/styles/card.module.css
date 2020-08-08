@@ -1,12 +1,14 @@
 .card {
-    width: 20vw;
-    height: 30vw;
-
-    border: #9696964d 1px solid;
+    width: 50vw;
+    height: 70vw;
 
     padding: 40px 20px;
 
+    border: #9696964d 1px solid;
+
     text-align: center;
+
+    margin: 50px auto;
 }
 
 #cardLogo {
@@ -16,10 +18,32 @@
 
 #cardText {
     margin-top: 50px;
-
+    font-size: 7vw;
 }
 
-#smallCard {
-    width: 15vw;
-    height: 25vw;
+/*Desktop CSS*/
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 20vw;
+        height: 30vw;
+
+        padding: 40px 20px;
+
+        text-align: center;
+    }
+
+    #cardLogo {
+        width: 40%;
+        text-align: center;
+    }
+
+    #cardText {
+        margin-top: 50px;
+        font-size: revert;
+    }
+
+    #smallCard {
+        width: 15vw;
+        height: 25vw;
+    }
 }
