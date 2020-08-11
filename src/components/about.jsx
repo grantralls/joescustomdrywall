@@ -1,17 +1,24 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {
   gridContainer, header, text,
 } from '../styles/about.module.css';
 
-// eslint-disable-next-line react/prop-types
 function About({ about }) {
   return (
     <section className={gridContainer}>
       <h1 id={header}>About Me</h1>
-      {/* eslint-disable-next-line react/prop-types */}
       <p id={text}>{about}</p>
     </section>
   );
 }
+
+About.propTypes = {
+  about: PropTypes.string,
+};
+
+About.defaultProps = {
+  about: '',
+};
 
 export default About;
